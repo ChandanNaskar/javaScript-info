@@ -133,11 +133,63 @@ if (time > 12) {
     document.write("<b>Have a nice day!</b>")
 }
 */
-var date = new Date();
-var time = date.getHours();
-if (time < 12) {
-    document.write("<b>Good Morning</b>","<br>");
+
+// ( Use of Logical Operators in If Statement in JavaScript :- )
+/*
+JavaScript logical operators can also be used in the conditional expression
+when we need to check multiple conditions together.
+There are three types of logical operators in JavaScript that are as follows.
+
+&& (AND)
+|| (OR)
+! (NOT)
+*/
+
+/*
+[Logical AND (&&) operator]
+
+let x = 20, y = 40, z = 50;
+if ((y>x) && (y<z)) { // true
+    document.write("Y is greater than X but smaller than Z", "<br>");
 }
-if (time > 12) {
-    document.write("<b>Have a nice day!</b>")
+if ((x>y) && (y<z)) { // false
+    document.write("Z is greater than x, y", "<br>");
 }
+if ((y%x == 0 && x!=0)) { // true
+    document.write("Z is greater than X, Y", "<br>");
+}
+*/
+
+/*
+[Logical OR (||) operator]
+
+let x = 2, y = 1, z = 4;
+let value;
+
+if (value = (x > y) || (y < z)) {
+    document.write(value, "<br>");
+}
+if (value = (x > y) || (y > z)) {
+    document.write(value, "<br>");
+}
+if (value = (x < y) || (y < z)) {
+    document.write(value, "<br>");
+}
+if (value = (x < y) || (y > z)) {
+    document.write(value, "<br>");
+}
+
+(In the above example program, if any of the expressions are true or both expressions are true,
+if statement evaluates true. If both expressions are false,
+the if statement evaluates false and the block of statements does not execute.)
+*/
+
+/*
+[Logical NOT (!) operator]
+
+let x = 2, y = 1;
+let value;
+if (value = (x == 2) && (y != 2)) {
+    document.write(value)
+}
+*/
