@@ -1,0 +1,11 @@
+/*----------------------------------------->
+           * SELECTING ELEMENT *
+<------------------------------------------*/
+/*
+    1. getElementById() -> select an element by id.
+    2. getElementsByName() -> select elements by name.
+    3. getElementsByTagName() -> select elements by a tag name.
+    4. getElementsByClassName() -> select elements by one or more class names.
+    5. querySelector() -> select elements by CSS selectors.
+    6. querySelectorAll() -> finds all elements that match a CSS selector or a group of CSS selectors
+*/
